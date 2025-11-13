@@ -5,7 +5,7 @@ This repository documents my progress, thought process, and solutions to various
 
 ---
 
-## 📘 About This Repository
+## About This Repository
 
 This repo serves as my **learning log** — it's a place where I:
 - Solve problems (as consistently as possible)
@@ -22,8 +22,7 @@ Each file in the folders represents a single problem from the platforms.
 
 Thanks for stopping by!  
 This repository is not about perfection — it’s about **progress**.  
-If you’re also on your DSA journey, feel free to **⭐ star** this repo and share your thoughts or ideas.  
-Let’s grow together 🚀
+If you’re also on your DSA journey, feel free to **star** this repo and share your thoughts or ideas. 
 
 
 ## My CodeWars / LeetCode Accounts
@@ -39,3 +38,4 @@ Let’s grow together 🚀
     <img src="https://img.shields.io/badge/LeetCode-vndxz-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Badge" />
   </a>
 </p>
+
