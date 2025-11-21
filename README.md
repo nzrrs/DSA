@@ -22,7 +22,10 @@ Each file in the folders represents a single problem from the platforms.
 
 Thanks for stopping by!  
 This repository is not about perfection — it’s about **progress**.  
-If you’re also on your DSA journey, feel free to **star** this repo and share your thoughts or ideas. 
+If you’re also on your DSA journey, feel free to **star** this repo and share your thoughts or ideas
+
+- For learning im using [**Neetcode**](https://neetcode.io/roadmap) Roadmap for the path of my learning journey, Youtube && documentation.
+- For practicing im using **LeetCode** && **CodeWars** ( *You can find my accountes down under in this readme file or my profile*)
 
 
 ## My CodeWars / LeetCode Accounts
@@ -38,4 +41,5 @@ If you’re also on your DSA journey, feel free to **star** this repo and share 
     <img src="https://img.shields.io/badge/LeetCode-vndxz-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Badge" />
   </a>
 </p>
+
 
