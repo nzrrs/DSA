@@ -9,13 +9,14 @@ This repository documents my progress, thought process, and solutions to various
 
 This repo serves as my **learning log** — it's a place where I:
 - Solve problems (as consistently as possible)
+- Prerequisites For solving the problem
 - Write clear **comments** explaining:
   - The problem statement from the platforms  
   - How I understood it  
   - My **thought process** and **approach**  
   - And finally, a link to the **original problem**
 
-Each file in the folders represents a single problem from the platforms.
+*Each folder represents a topic, and each file inside contains a single problem from the platforms.*
 
 
 ## Notes
@@ -41,5 +42,6 @@ If you’re also on your DSA journey, feel free to **star** this repo and share 
     <img src="https://img.shields.io/badge/LeetCode-vndxz-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Badge" />
   </a>
 </p>
+
 
 
