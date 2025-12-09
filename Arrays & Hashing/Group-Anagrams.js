@@ -15,14 +15,14 @@
  * @param {string[]} strs
  * @return {string[][]}
  */
-var groupAnagrams = function(strs) {
-    let groups = {}
-    strs.forEach(e =>{
-        let key = e.split('').sort().join('')
-        if(!groups[key]) groups[key] = [];
-        return groups[key].push(e)
-    })
-    return Object.values(groups)
+var groupAnagrams = function (strs) {
+  let groups = {};
+  strs.forEach((e) => {
+    let key = e.split("").sort().join("");
+    if (!groups[key]) groups[key] = [];
+    return groups[key].push(e);
+  });
+  return Object.values(groups);
 };
 
 /* ---------------------- Solution 2: Using hashing O(n * k) ---------------------- */
@@ -32,22 +32,22 @@ var groupAnagrams = function(strs) {
  * @return {string[][]}
  */
 var groupAnagrams = function (strs) {
-    const res = {};
+  const res = {};
 
-    for (let word of strs) {
-        const freq = Array(26).fill(0);
+  for (let word of strs) {
+    const freq = Array(26).fill(0);
 
-        for (let ch of word) {
-            freq[ch.charCodeAt(0) - 97]++;
-        }
-
-        const signature = freq.join('#');
-
-        if (!res[signature]) res[signature] = [];
-        res[signature].push(word);
+    for (let ch of word) {
+      freq[ch.charCodeAt(0) - 97]++;
     }
 
-    return Object.values(res);
+    const signature = freq.join("#");
+
+    if (!res[signature]) res[signature] = [];
+    res[signature].push(word);
+  }
+
+  return Object.values(res);
 };
 
 /* ---------------------- NOTES ----------------------

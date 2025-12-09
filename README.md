@@ -8,16 +8,16 @@ This repository documents my progress, thought process, and solutions to various
 ## About This Repository
 
 This repo serves as my **learning log** — it's a place where I:
+
 - Solve problems (as consistently as possible)
 - Prerequisites For solving the problem
 - Write clear **comments** explaining:
-  - The problem statement from the platforms  
-  - How I understood it  
-  - My **thought process** and **approach**  
+  - The problem statement from the platforms
+  - How I understood it
+  - My **thought process** and **approach**
   - And finally, a link to the **original problem**
 
-*Each folder represents a topic, and each file inside contains a single problem from the platforms.*
-
+_Each folder represents a topic, and each file inside contains a single problem from the platforms._
 
 ## Notes
 
@@ -26,8 +26,7 @@ This repository is not about perfection — it’s about **progress**.
 If you’re also on your DSA journey, feel free to **star** this repo and share your thoughts or ideas
 
 - For learning im using [**Neetcode**](https://neetcode.io/roadmap) Roadmap for the path of my learning journey, Youtube && documentation.
-- For practicing im using **LeetCode** && **CodeWars** ( *You can find my accountes down under in this readme file or my profile*)
-
+- For practicing im using **LeetCode** && **CodeWars** ( _You can find my accountes down under in this readme file or my profile_)
 
 ## My CodeWars / LeetCode Accounts
 

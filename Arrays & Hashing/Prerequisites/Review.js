@@ -7,8 +7,8 @@ const a = [1, 2, 3];
 new Array(5) || Array(5); // empty slots
 
 Array.isArray(a); // check array
-Array.from(iterable); // convert iterable → array 
-Array.from({length:N},()=>{}) // Creates new array of length N with init fn
+Array.from(iterable); // convert iterable → array
+Array.from({ length: N }, () => {}); // Creates new array of length N with init fn
 
 // Add / Remove (mutate)
 a.push(x); // add end

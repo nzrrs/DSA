@@ -17,7 +17,7 @@
  * s and t consist of lowercase English letters.
  *
  * LINK OF PROBLEM IN LEETCODE: (https://leetcode.com/problems/valid-anagram/)
- * 
+ *
  */
 
 /* ---------------------- Solution 1: Hash Map (O(n)) ---------------------- */
@@ -27,24 +27,24 @@
  * @return {boolean}
  */
 var isAnagram = function (s, t) {
-    // If lengths differ → impossible to be anagrams
-    if (s.length !== t.length) return false;
+  // If lengths differ → impossible to be anagrams
+  if (s.length !== t.length) return false;
 
-    const map = new Map();
+  const map = new Map();
 
-    // Count chars of s
-    for (const char of s) {
-        map.set(char, (map.get(char) || 0) + 1);
-    }
+  // Count chars of s
+  for (const char of s) {
+    map.set(char, (map.get(char) || 0) + 1);
+  }
 
-    // Reduce using chars of t
-    for (const char of t) {
-        if (!map.get(char)) return false; // missing or zero count
-        map.set(char, map.get(char) - 1);
-    }
+  // Reduce using chars of t
+  for (const char of t) {
+    if (!map.get(char)) return false; // missing or zero count
+    map.set(char, map.get(char) - 1);
+  }
 
-    // All counts balanced
-    return true;
+  // All counts balanced
+  return true;
 };
 
 /* ---------------------- Solution 2: Sorting (O(n log n)) ---------------------- */
@@ -54,14 +54,14 @@ var isAnagram = function (s, t) {
  * @return {boolean}
  */
 var isAnagram = function (s, t) {
-    // Quick length check
-    if (s.length !== t.length) return false;
+  // Quick length check
+  if (s.length !== t.length) return false;
 
-    // Sort and compare
-    const sortedS = s.split('').sort().join('');
-    const sortedT = t.split('').sort().join('');
+  // Sort and compare
+  const sortedS = s.split("").sort().join("");
+  const sortedT = t.split("").sort().join("");
 
-    return sortedS === sortedT;
+  return sortedS === sortedT;
 };
 
 /* ---------------------- NOTES ----------------------

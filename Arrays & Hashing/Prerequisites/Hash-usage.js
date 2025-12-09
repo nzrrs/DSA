@@ -8,7 +8,7 @@ console.log("Map has user1:", map.has("user1")); // true
 // 2 Counting / Frequency using Object
 const arr = ["a", "b", "a", "c", "b"];
 const freq = {};
-arr.forEach(x => freq[x] = (freq[x] || 0) + 1);
+arr.forEach((x) => (freq[x] = (freq[x] || 0) + 1));
 console.log("Frequency count:", freq); // { a: 2, b: 2, c: 1 }
 
 // 3 Removing duplicates using Set
@@ -20,10 +20,10 @@ console.log("Unique numbers:", uniqueNums); // [1, 2, 3, 4]
 const users = [
   { name: "Alice", age: 25 },
   { name: "Bob", age: 25 },
-  { name: "Charlie", age: 30 }
+  { name: "Charlie", age: 30 },
 ];
 const groups = {};
-users.forEach(u => {
+users.forEach((u) => {
   if (!groups[u.age]) groups[u.age] = [];
   groups[u.age].push(u.name);
 });

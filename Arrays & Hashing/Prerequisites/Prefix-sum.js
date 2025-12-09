@@ -8,7 +8,7 @@ for (let i = 1; i < arr.length; i++) {
   prefix[i] = prefix[i - 1] + arr[i];
 }
 
-console.log("Prefix Sum:", prefix); 
+console.log("Prefix Sum:", prefix);
 // Output: [2, 6, 7, 10]
 
 // Step 2: Function to get sum of range i → j (inclusive)
