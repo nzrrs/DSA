@@ -22,7 +22,7 @@ _Each folder represents a topic, and each file inside contains a single problem 
 ## Notes
 
 - For learning im using [**Neetcode**](https://neetcode.io/roadmap) Roadmap for the path of my learning journey, Youtube && documentation.
-- For practicing im using **LeetCode** && **CodeWars** ( _You can find my accountes down under_)
+- For practicing im using **LeetCode** && **CodeWars** ( _You can find my accounts down under_)
 
 ## My CodeWars / LeetCode Accounts
 
@@ -37,4 +37,5 @@ _Each folder represents a topic, and each file inside contains a single problem 
     <img src="https://img.shields.io/badge/LeetCode-vndxz-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Badge" />
   </a>
 </p>
+
 
